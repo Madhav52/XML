@@ -1,0 +1,361 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+navbar {
+    display: block;
+    color: black;
+    background-color: #CD5C5C;
+    width: 100%;
+    position: relative;
+    height: 100px;
+}
+company {
+     
+    display: block; 
+    width: 100%;
+    background: linear-gradient(to right, #ca170f , #faf65a, #ca170f );
+}
+
+logo {
+    display:block;
+    background: url("logo.png") no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 100px;
+    margin-left: 10px;
+}
+info {
+    display: block;
+    width: 400px;
+    font-size: 30px;
+    font-family: arial;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: 850px;
+    color: rgb(245, 238, 13);
+
+}
+info:after {
+    content: "A2Z IT Solutions Pvt. Ltd. \A Since 1999.";
+    font-size: 35px;
+    white-space: pre;
+    font-weight: bold;
+    font-family: cursive;
+}
+background_image {
+    display: block;
+    background: url("bg.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    z-index: 1;
+    height: 500px;
+}
+companyInfo{
+    display: block;
+    color: black;
+    background-image: linear-gradient(to right, #ffffff, #d1cfcf); 
+    margin: 5%;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    font-weight: bold;
+    padding: 10px 0px;
+    box-shadow: 5px 5px 5px black;
+    animation-name: company;
+    opacity: 0.8;
+    animation-duration: 3s;
+}
+@keyframes company {
+  0%   {opacity: 0;}
+  33%  {opacity: 0.2;}
+  66%  {opacity: 0.4;}
+  100% {opacity: 0.6;}
+}
+com_name{
+    display: block;
+    font-size: 50px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    color: rgb(13, 200, 245);
+}
+
+com_address, com_telephone, com_url, com_email{
+    display: block;
+    font-size: 25px;
+    margin: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+com_name:before{
+    content: "Hello and Welcome.\A";
+    font-size: 30px;
+    white-space: pre;
+    color: rgb(245, 13, 140);
+}
+com_address:before{
+    content: "We are located at: "
+}
+
+com_telephone:before{
+    content: "Contact us at: "
+}
+
+com_url:before{
+    content: "Visit us at: ";
+}
+com_email:before{
+    content: "Mail us at: ";
+}
+ceo{
+    display: block;
+    color: black;
+    background-image: linear-gradient(to right, #FF8C00, #FF7F50, #FFA500); 
+    margin: 5%;
+    padding: 10px 0px;
+    position: relative;
+    height: auto;
+    z-index: 1;
+    border: black solid 2px;
+    font-weight: bold;
+}
+@keyframes example {
+  0%   {opacity: 0;}
+  33%  {opacity: 0.2;}
+  66%  {opacity: 0.4;}
+  100% {opacity: 0.6;}
+}
+ceo:before{
+    content:"CEO";
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+}
+ceo:after{
+    content:"\A CEO Messages\A\A Hi and Welcome everyone! \A I have found being honest is the best technique i can use. \A Right up front, tell people what you are trying to accomplish \A and what you are willing to sacrifice to accomplish it.";
+    white-space: pre;
+    display: block;
+    margin-left: 10%;
+    font-size: 20px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ceo_name, ceo_address, ceo_contact, ceo_email{
+    display: block;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ceo_name:before{
+    content:"Name: ";
+}
+ceo_address:before{
+    content:"Address: ";
+}
+ceo_contact:before{
+    content:"Phone Number: ";
+}
+ceo_email:before{
+    content:"Email: ";
+}
+department_info{
+    display: block;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 5px 5px black;
+    position: absolute;
+    background-color: #FA8072;
+}
+services{
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    margin-left: 700px;
+    position: relative;
+    box-shadow: 5px 5px 5px 5px black;
+    background-color: #FA8072;
+    
+
+}
+department_info:before{
+    content: "Our List of Departments.";
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(155, 25, 10); 
+}
+services:before{
+    content: "Our Services.";
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 120px;
+    color: rgb(155, 25, 10); 
+
+}
+department_info:after{
+    display: block;
+    content: "Research and Development \A Marketing \A Human Resource Development \A Mobile Development \A Web Development";
+    font-size: 30px;
+    white-space: pre;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+services:after{
+    display: block;
+    content: "Desktop Application \A Web Applications \A Mobile Application \A Web Designing \A Wordpress Templates";
+    font-size: 30px;
+    white-space: pre;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+departments{
+    display: block;
+    margin: 35px;
+
+}
+department{
+    display: list-item;
+    list-style: square;
+    background: #F4A460;
+    font-family: Verdana, Geneva, sans-serif;
+    letter-spacing: 1px;
+    float: left;
+    width: 47%;
+    margin: 10px;
+    box-shadow: 3px 3px 4px;
+    padding-left: 10px;
+}
+department_name{
+    padding: 10px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 70px;
+    color: rgb(248, 5, 141);
+}
+department_mem{
+    padding: 10px 0px;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+team_leader{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+department_mem, project_manager, team_leader{
+    display: block;
+    font-size: 18px; 
+}
+department_mem:before{
+    content:"Manager: ";
+}
+project_manager:before{
+    content:"Project Manager: ";
+} 
+
+team_leader:before{
+    content:"Team Leader: ";
+} 
+
+department[id="1"]{
+    margin-top: 50px;
+}
+
+department[id="2"]{
+    margin-top: 51px;
+}
+
+department[id="3"]{
+    margin-top: 50px;
+}
+
+department[id="4"]{
+    margin-top: 50px;
+}
+
+department[id="5"]{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+department[id="1"] department_name:after{    
+    font-size: 16px;
+    font-weight: bold;
+    content: " ";
+    content: "\A\A Research and Development department is related about the \A research and findings during the development of new \A projects. What is under developing or will be developed is \A undergoes through this department and development is \A proceed using different techniques in this department.";
+    white-space: pre;
+    color: #000000;
+}
+
+department[id="2"] department_name:after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "\A\AMarketing Department is realted about the marketing of the \A new brand products of the company. The company also hire \A the person who are interested in marketing. The company \A has very board concept of marketing and please \A remember us or visit us for marketing your bussiness.";
+    white-space: pre;
+    color: #000000;
+}
+
+department[id="3"] department_name:after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "\A\AHuman Resource department is the department that \A handles the human resources of the company. The person \A who works in company are under supervision of this \A department. The main job of this department is to hire new \A employees if necessary and listens employees suggestions.";
+    white-space: pre;
+    color: #000000;
+}
+
+department[id="4"] department_name:after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "\A\AMobile department is related about developing the projects \A concerned with mobile applications. This department job \A is to develop new mobile based applications for our clients. \A All of the projects are handled by Project manager and \A Team leader to ensure high quality to the products.";
+    white-space: pre;
+    color: #000000;
+}
+
+department[id="5"] department_name:after{
+    font-size: 16px;
+    font-weight: bold;
+    content: "\A\AWeb Department is related about developing  the projects\A concerned with web based applications. This department \A purpose is to develop new web based applications for our \A clients. All of the projects are handled by Project manager \A and Team leader to ensure high quality to the products.";
+    white-space: pre;
+    color: #000000;
+}
+footer {
+    display: block;
+    color: black;
+    background-color: #FFA500; 
+    margin-top: 87em;
+    width: 100%;
+    height: 100px;
+}
+footer_title{
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+}
+footer_info{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+footer_title:after{
+    display: block;
+    content: "Copyright 2019, IT Solution Pvt. Ltd. \A All Rights Reserved.";
+    white-space: pre;
+    text-align: center;
+    color: rgb(248, 5, 23);
+}
+footer_info:after{
+    margin-left: 470px;
+    margin-top: 5px;
+    display: block;
+    font-size: 18px;
+    content: "Privacy Policy! \A Terms and Condition! \A Careers!";
+    white-space: nowrap;
+}

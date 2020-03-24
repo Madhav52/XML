@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="catalog_17031180.css"?>
+<!DOCTYPE company SYSTEM "catalog_17031180.dtd">
+<company>
+  <navbar>
+    <logo/>
+    <info/>
+  </navbar>
+  <background_image/>
+  <companyInfo>
+    <com_name>A2Z IT Solutions Pvt. Ltd.</com_name>
+    <com_address>Kalanki</com_address>
+    <com_telephone>014425314</com_telephone>
+    <com_url>www.itsolutions.com.np</com_url>
+    <com_email>itsolutions@company.com</com_email>
+  </companyInfo>
+  <ceo>
+    <ceo_name title="Mr.">Madhav Belbase</ceo_name>
+    <ceo_address>Kalanki</ceo_address>
+    <ceo_contact>9865373625</ceo_contact>
+    <ceo_email>madhavbelbase52@gmail.com</ceo_email>
+  </ceo>
+  <department_info/>
+  <services/>
+  <departments>
+    <department id="1">
+      <department_name>Research and Development</department_name>
+      <department_mem>Bipin Belbase</department_mem>
+      <project_manager/>
+      <team_leader/>
+    </department>
+    <department id="2">
+      <department_name>Marketing Department</department_name>
+      <department_mem>Marcus Kc</department_mem>
+      <project_manager>Sushant Giri</project_manager>
+      <team_leader>Vacant</team_leader>
+    </department>
+    <department id="3">
+      <department_name>Human Resource Department</department_name>
+      <department_mem>Kalpana Belbase</department_mem>
+      <project_manager>Vacant</project_manager>
+      <team_leader>Ajay Gautam</team_leader>
+    </department>
+    <department id="4">
+      <department_name>Mobile Department</department_name>
+      <department_mem>Anil Gautam</department_mem>
+      <project_manager>Anisha Giri</project_manager>
+      <team_leader>Anil Kc</team_leader>
+    </department>
+    <department id="5">
+      <department_name>Web Department</department_name>
+      <department_mem>Anup Adhikari</department_mem>
+      <project_manager>Samikshya Giri</project_manager>
+      <team_leader>Sunil Kc</team_leader>
+    </department>
+  </departments>
+  <footer>
+    <footer_title/>
+    <footer_info/>
+  </footer>
+</company>

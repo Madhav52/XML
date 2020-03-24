@@ -1,0 +1,29 @@
+<!ELEMENT company (navbar, background_image,companyInfo, ceo, department_info, services, departments, footer)>
+<!ELEMENT navbar (logo, info)>
+<!ELEMENT companyInfo (com_name, com_address, com_telephone, com_url, com_email)>
+<!ELEMENT ceo (ceo_name, ceo_address, ceo_contact, ceo_email)>
+<!ELEMENT departments (department+)>
+<!ELEMENT department (department_name,department_mem, project_manager?, team_leader?)>
+<!ELEMENT footer (footer_title, footer_info)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT info EMPTY>
+<!ELEMENT background_image EMPTY>
+<!ELEMENT department_info EMPTY>
+<!ELEMENT services EMPTY>
+<!ELEMENT footer_title EMPTY>
+<!ELEMENT footer_info EMPTY>
+<!ELEMENT com_name (#PCDATA)>
+<!ELEMENT com_address (#PCDATA)>
+<!ELEMENT com_telephone (#PCDATA)>
+<!ELEMENT com_url (#PCDATA)>
+<!ELEMENT com_email (#PCDATA)>
+<!ELEMENT ceo_name (#PCDATA)>
+<!ELEMENT ceo_address (#PCDATA)>
+<!ELEMENT ceo_contact (#PCDATA)>
+<!ELEMENT ceo_email (#PCDATA)>
+<!ATTLIST department id CDATA #REQUIRED>
+<!ATTLIST ceo_name title CDATA #REQUIRED>
+<!ELEMENT department_name (#PCDATA)>
+<!ELEMENT department_mem (#PCDATA)>
+<!ELEMENT project_manager (#PCDATA)>
+<!ELEMENT team_leader (#PCDATA)>
